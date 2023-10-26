@@ -1,0 +1,38 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.pradalogo{
+    width: 153px;
+    height: 82px;
+}
+.texts{
+    color: black;
+}
+
+video{
+    margin: 1em auto;
+    margin-left: 13px;
+    width: 97%;
+    height: calc(0.5625 * 97vw)
+}
+.navi-items{
+    z-index: 0;
+}
+
+@media only screen and(max-width:767px){
+    #re{
+        margin-top: 10px !important;
+    }
+}
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 35px;
+    color: #007BFF;
+  }
